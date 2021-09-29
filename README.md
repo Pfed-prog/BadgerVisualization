@@ -1,10 +1,10 @@
 # BadgerVisualization
 
-This project is a submission for [Boost Powerup Market Analytics Dashboard](https://gitcoin.co/funding/details/?url=https://github.com/Badger-Finance/gitcoin/issues/27)
+This project is a submission for [Create Visualization Of Badger Boost Data](https://gitcoin.co/issue/Badger-Finance/gitcoin/27/100026488)
 
 The project is hosted on Heroku at https://dashbadger.herokuapp.com/
 
-## Code 
+## Additional Files and Work
 
 Apart from the code in this github repository here is the code for data scrappig and preprocessing:
 
