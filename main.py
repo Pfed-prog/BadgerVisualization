@@ -18,8 +18,8 @@ data=pd.read_csv('dataframe.csv')
 l = data['address_multiplier'].value_counts()[:-4].index.tolist()
 # Set up the app layout
 app.layout = html.Div(children=[
-   html.Div([html.H1(children='Dashboard: Multiplayer Address History', style={'color':"#CECECE"}),
-    html.H4(children='Choose the Address to Explore', style={'color':"#CECECE"}),
+   html.Div([html.H1(children='Dashboard: Multiplayer Address History'),
+    html.H4(children='Choose the Address to Explore'),
     dcc.Dropdown(id='geo-dropdown',
                  options=[{'label': i, 'value': i}
                           for i in l],
