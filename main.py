@@ -15,20 +15,20 @@ app_colors = {
 }
 
 data=pd.read_csv('dataframe.csv')
-
+l = data['address_multiplier'].value_counts()[:-4].index.tolist()
 # Set up the app layout
 app.layout = html.Div(children=[
    html.Div([html.H1(children='Dashboard: Multiplayer Address History', style={'color':"#CECECE"}),
     html.H4(children='Choose the Address to Explore', style={'color':"#CECECE"}),
     dcc.Dropdown(id='geo-dropdown',
                  options=[{'label': i, 'value': i}
-                          for i in data['address_multiplier'].unique()],
+                          for i in l],
                  value='0x6dEf55d2e18486B9dDfaA075bc4e4EE0B28c1545'),
-    dcc.Graph(figure=go.Figure(layout=go.Layout()),id='price-graph')]),
+    dcc.Graph(id='price-graph')]),
     html.Div([
     dcc.Dropdown(id='geo-dropdown2',
                  options=[{'label': i, 'value': i}
-                          for i in data['address_multiplier'].unique()],
+                          for i in l],
                  value='0x6dEf55d2e18486B9dDfaA075bc4e4EE0B28c1545'),
     dcc.Graph(id='price-graph2')]),
 ], style={'backgroundColor': app_colors['background'], 'margin-top':'30px'},)
