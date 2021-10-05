@@ -2,9 +2,11 @@
 
 This project is a submission for [Create Visualization Of Badger Boost Data](https://gitcoin.co/issue/Badger-Finance/gitcoin/27/100026488)
 
-The project is hosted on Heroku at https://dashbadger.herokuapp.com/
+The address multiplier data is hosted on Heroku at https://dashbadger.herokuapp.com/
 
-![](Gif.gif)
+![Web App](Gif.gif)
+
+The analysis of addresses is at https://www.kaggle.com/pavfedotov/badger-address-summary/
 
 ## Installation
 `pip install -r requirements.txt`
