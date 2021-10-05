@@ -13,3 +13,5 @@ Apart from the code in this github repository here is the code for data scrappig
 [Scrapping of Latest Online date](https://www.kaggle.com/pavfedotov/badger-data?scriptVersionId=75918446)
 
 [Further Visualization of data](https://www.kaggle.com/pavfedotov/visualization-badgers/)
+
+[Full processed dataset](https://www.kaggle.com/pavfedotov/badgerboosts)
