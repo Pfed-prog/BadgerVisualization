@@ -4,7 +4,15 @@ This project is a submission for [Create Visualization Of Badger Boost Data](htt
 
 The project is hosted on Heroku at https://dashbadger.herokuapp.com/
 
-![](https://github.com/Pfed-prog/BadgerVisualization/Gif.gif)
+![](Gif.gif)
+
+## Installation
+`pip install -r requirements.txt`
+
+To run the project:
+
+`py main.py`
+
 ## Additional Files and Work
 
 Apart from the code in this github repository here is the code for data scrappig and preprocessing:
